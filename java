@@ -15,6 +15,16 @@ java只有值传递，针对于引用类型，是将引用的地址作为值传�
 5.hashcode和equals方法
 重写equals方法一般同时重写hashcode方法，但不是必须，如果是放在散列表中则必须要重写hashcode
 
+6.基本类型
+byte：1byte=8bit
+short：1short=2byte=16bit
+int：1int=4byte=32bit
+long：1long=8byte=64bit
+float:1int=4byte=32bit
+double:1double=8byte=64bit
+char:1char=2byte=16bit
+boolean:1bit
+
 
 Java NIO 核心
 1.Buffer
